@@ -25,7 +25,7 @@ public class DubboClient {
 		ApplicationConfig applicationConfig = new ApplicationConfig("dubbo-client");
 
 		// 注册中心
-		RegistryConfig registryConfig = new RegistryConfig("multicast://224.5.6.7:1234");
+		RegistryConfig registryConfig = new RegistryConfig("multicast://224.0.0.1:3333");
 
 		// 设置引用reference
 		ReferenceConfig<UserService> referenceConfig = new ReferenceConfig<>();
