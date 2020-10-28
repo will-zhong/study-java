@@ -9,6 +9,10 @@
 	<modules>
 		<module>jvm-spi</module>
 		<module>jvm-proxy</module>
+		<module>jvm-thread</module>
+		<module>jvm-hashmap</module>
+		<module>jvm-final</module>
+		<module>jvm-string</module>
 	</modules>
 
 	<properties>
