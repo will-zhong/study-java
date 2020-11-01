@@ -33,7 +33,7 @@ public class TraverseRunnableTest {
 		List<Thread> ts = new ArrayList<>();
 		List<TraverserRunnable> trs = new ArrayList<>();
 		
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 2; i++) {
 			TraverserRunnable traverserRunnable = new TraverserRunnable(map);
 			ts.add(new Thread(traverserRunnable));
 			trs.add(traverserRunnable);
