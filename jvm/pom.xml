@@ -13,6 +13,7 @@
 		<module>jvm-hashmap</module>
 		<module>jvm-final</module>
 		<module>jvm-string</module>
+		<module>jvm-file</module>
 	</modules>
 
 	<properties>

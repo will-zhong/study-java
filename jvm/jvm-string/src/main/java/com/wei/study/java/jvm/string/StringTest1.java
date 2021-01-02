@@ -8,7 +8,7 @@ package com.wei.study.java.jvm.string;
  */
 public class StringTest1 {
 
-	public static void main(String[] args) {
+	public void v1() {
 		String str1 = "HelloWorld";
 		String str2 = new String("HelloWorld");
 		String str3 = "Hello";
@@ -20,5 +20,12 @@ public class StringTest1 {
 		System.out.println(str1 == str6); // false
 		System.out.println(str1 == str6.intern()); // true
 		System.out.println(str2 == str2.intern()); // false
+		System.out.println(str1 == str); // false
+	}
+
+	public String str = "HelloWorld";
+
+	public static void main(String[] args) {
+		new StringTest1().v1();
 	}
 }
