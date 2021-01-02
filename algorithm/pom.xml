@@ -11,6 +11,8 @@
 
     <modules>
         <module>algorithm-bloomfilter</module>
+        <module>algorithm-tree</module>
+        <module>algorithm-dp</module>
     </modules>
 
     <properties>
