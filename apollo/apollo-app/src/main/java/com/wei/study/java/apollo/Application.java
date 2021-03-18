@@ -21,7 +21,7 @@ public class Application {
     }
 
 
-    @Value("${apollo.test.value:tttt}")
+    @Value("${apollo.test.value:}")
     private String test;
 
     @RequestMapping("index")

@@ -11,6 +11,9 @@
 
     <modules>
         <module>spring-boot-mybatis</module>
+        <module>demo-spring-boot-autoconfiguration</module>
+        <module>demo-spring-boot-starter</module>
+        <module>demo-spring-boot-test</module>
     </modules>
 
     <properties>
@@ -36,16 +39,10 @@
 
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
     </dependencies>
